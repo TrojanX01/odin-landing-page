@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  font-family: Roboto, Sans-Serif;
 }
 
 .header, .content1, .content2, .content3, .content4, .vInfo, .footer {
@@ -22,6 +23,7 @@
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-family: Monaco, Monospace;
 }
 
 .content1 {
@@ -86,6 +88,8 @@ button {
 .image2 {
   width: 150px;
   height: 150px;
+  border: 1px solid blue;
+  border-radius: 10px;
 }
 
 .content3 {

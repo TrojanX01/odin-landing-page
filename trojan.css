@@ -1,0 +1,170 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header, .content1, .content2, .content3, .content4, .vInfo, .footer {
+  display: flex;
+}
+
+.content2 {
+  flex-direction: column;
+}
+
+.header {
+  height: 72px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.content1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  width: 400px;
+  margin-right: 50px;
+}
+
+.main1 {
+  font-size: 48px;
+  font-weight: 1000;
+  color: #F9FAF8;
+}
+
+.sub1 {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: black;
+  width: 100px;
+}
+
+.image1 {
+  width: 400px;
+  height: 200px;
+}
+
+.content2 {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.vInfo {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}
+
+.info {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.main2 {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1F2937;
+}
+
+.image2 {
+  width: 150px;
+  height: 150px;
+}
+
+.content3 {
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+q {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header, .content1 {
+  background-color: #1F2937;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.content1, .content2, .content3, .content4 {
+  height: 400px;
+}
+
+.content4 {
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  height: 100px;
+  background-color: #3882F6;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.last4 {
+  color: #F9FAF8;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  height: 72px;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+}
